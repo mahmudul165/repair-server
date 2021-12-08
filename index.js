@@ -156,7 +156,7 @@ run().catch(console.dir);
 //   });
 // };
 app.get("/", (req, res) => {
-  res.send("Running TourBd Server.");
+  res.send("Running bicycleo Repair Server.");
 });
 
 app.listen(port, () => {
